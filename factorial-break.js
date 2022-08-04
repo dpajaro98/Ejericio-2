@@ -6,8 +6,9 @@ let f=n
 
 while(n>1){
     f=f*(n-1)
-    let control=11
     n--
+    if (n===1) break
+
    
    
     
